@@ -9,5 +9,52 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
+    .greenlight:hover{
+    background-color: green;
+  
+}
 
 */
+body {
+     margin:0;
+    padding:0;
+    color: grey;
+    background: url(https://xn--sealesdetrafico-zqb.com/wp-content/uploads/2020/04/paso-de-peatones-paso-de-cebra.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.circulo{
+    border:1px solid black;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+};
+
+.redlight{
+    background-color: red;
+  
+};
+.yellowlight{
+    background-color: orange;
+  
+};
+
+.greenlight{
+    background-color: green;
+  
+}
+
+.container{
+    background-color:black;
+    width: 5rem;
+    height: 15rem;
+    margin-top: 13em;
+    border-radius: 30px;
+}
+
+.selected{
+
+   box-shadow: 20px 20px 40px yellow;
+}
+
+
+
